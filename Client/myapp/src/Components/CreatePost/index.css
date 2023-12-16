@@ -1,0 +1,76 @@
+.inputFile{
+   display: none;
+}
+
+.createPostContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.label{
+   
+}
+
+.labelContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    align-self: center;
+    border-radius: 10px;
+    height: 50vh;
+    background-color: rgb(184, 133, 133);
+    border: 5px dotted green;
+}
+
+.transparent{
+    background-color: none;
+}
+
+.postButtonContainer{
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.textarea{
+    margin-top: 10px;
+}
+
+.PostButtonA{
+    background-color: #AAADAF;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.postHeading{
+    font-size: 26px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.selectImagepara{
+    margin: 0px;
+}
+
+.imageStylingA{
+    width: 90%;
+    border-radius: 10px;
+}
+
+@media (max-width:576px){
+    
+    .containerPost{
+        width: 100%;
+        align-self: center;
+    }
+
+    .commentInput{
+        width: 60vw;
+    }
+}

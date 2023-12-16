@@ -1,0 +1,42 @@
+.image{
+    height: 40px;
+    width: 40px;
+    border-radius: 80px;
+    margin-right: 10px;
+}
+
+.profileContainer{
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    padding:20px;
+    color:white;
+}
+
+h3{
+    margin: 5px;
+}
+
+.timeStamp{
+    margin: 5px;
+    font-size: 12px;
+    margin-top: 0px;
+}
+
+.buttonContainer{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+button{
+    background-color: black;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.threeDots{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
